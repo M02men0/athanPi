@@ -67,7 +67,7 @@ date,fajr,sunrise,zuhr,asr,maghrib,isha
 
 ---
 
-## ▶️ How It Works
+## 🧠 How It Works
 
 1. Loads **today’s row** from the CSV  
 2. Converts times into system clock events  
