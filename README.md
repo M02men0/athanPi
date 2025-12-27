@@ -1,11 +1,12 @@
 # 🕌 athanPi 🕌
-## Raspberry Pi Adhan Scheduler
 
 > **﴿ إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا ﴾**  
 > *سورة النساء — الآية ١٠٣*  
 >  
 > **“Indeed, prayer has been prescribed for the believers at fixed times.”**
 > *(Qur’an 4:103)*
+
+## Raspberry Pi Adhan Scheduler
 
 A lightweight *Raspberry Pi Athan* system that plays Athan and notifications at precise times using a CSV schedule and local audio files.
 
@@ -75,15 +76,6 @@ date,fajr,sunrise,zuhr,asr,maghrib,isha
 5. Repeats daily  
 
 The script runs continuously and uses almost no CPU.
-
----
-
-## 🔄 Startup & Reliability
-
-- Managed by **systemd**
-- Starts automatically at boot
-- Restarts automatically if it crashes
-- Logs activity to a file for debugging
 
 ---
 
