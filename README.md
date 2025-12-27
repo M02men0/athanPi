@@ -1,5 +1,11 @@
 # 🕌 athanPi 🕌
-# Raspberry Pi Adhan Scheduler
+## Raspberry Pi Adhan Scheduler
+
+> **﴿ إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا ﴾**  
+> *سورة النساء (4:103)*  
+>  
+> **“Indeed, prayer has been prescribed for the believers at fixed times.”**
+
 
 /* discription */ 
 
