@@ -1,0 +1,19 @@
+
+[Unit]
+Description=Athan Scheduler
+After=network-online.target sound.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/user1/athan/script.py
+WorkingDirectory=/home/user1/athan
+User=user1
+Restart=always
+RestartSec=5
+
+StandardOutput=append:/home/user1/athan/logs/athan.log
+StandardError=append:/home/user1/athan/logs/athan.log
+
+[Install]
+WantedBy=multi-user.target
