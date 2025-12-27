@@ -87,7 +87,7 @@ The script runs continuously and uses almost no CPU.
 
 ---
 
-##🔮 Planned Extensions
+## 🔮 Planned Extensions
 
 - 🔔 Pre-Athan alerts (e.g. 10 minutes before Maghrib)
 - 🔉 Per-prayer volume control
