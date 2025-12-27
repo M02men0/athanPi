@@ -7,19 +7,21 @@
 > **“Indeed, prayer has been prescribed for the believers at fixed times.”**
 > *(Qur’an 4:103)*
 
+A lightweight *Raspberry Pi Athan* system that plays Athan and notifications at precise times using a CSV schedule and local audio files.
 
-/* discription */ 
+Designed to run *headless*, *at boot*, and reliably as a *background service*.
 
 ---
 
 ## ✨ Features
 
-- ⏰ Plays Adhan at exact prayer times (CSV-based)
-- 🌅 Sunrise notification sound (beep)
-- 🔊 USB DAC / external speaker support
-- 🔁 Runs at boot & restarts on crash (systemd)
-- 🧠 Simple, extensible Python design
-- 🌐 Uses internet time (RTC-ready later)
+- ⏰ Plays Athan for the 5 daily prayers
+- 🌅 Plays a notification sound at sunrise (beep)
+- 📅 Uses a CSV schedule (monthly or yearly)
+- 🔊 Outputs audio via USB DAC / sound card
+- 🔁 Auto-starts on boot (systemd)
+- 🛠️ Auto-restarts if it crashes
+- 📜 Logs activity for debugging
 
 ---
 
@@ -85,9 +87,9 @@ The script runs continuously and uses almost no CPU.
 
 ---
 
-## 🚀 Planned Enhancements
+##🔮 Planned Extensions
 
-- 🔔 Pre-Adhan alerts (e.g. 10 minutes before Maghrib)
+- 🔔 Pre-Athan alerts (e.g. 10 minutes before Maghrib)
 - 🔉 Per-prayer volume control
 - 🕌 Iqamah notifications
 - 🧭 RTC fallback for offline operation
